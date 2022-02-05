@@ -41359,5 +41359,16 @@ h3.title-service {
     }
 }
 
+.hero-content__for-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn {
+    width: max-content !important;
+}
+
 
 /*# sourceMappingURL=style-starter.css.map */

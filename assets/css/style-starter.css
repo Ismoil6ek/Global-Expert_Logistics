@@ -20680,7 +20680,6 @@ h3.title-service {
 
 /*# sourceMappingURL=style-starter.css.map */
 
-@charset "UTF-8";
 
 /*--
 Author: W3layouts
@@ -41366,9 +41365,35 @@ h3.title-service {
     justify-content: space-between;
 }
 
-.btn {
-    width: max-content !important;
+html::-webkit-scrollbar-track {
+    /*  */
 }
 
+html::-webkit-scrollbar {
+    width: 8px;
+}
 
-/*# sourceMappingURL=style-starter.css.map */
+html::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+}
+
+@media only screen and (max-width: 991px) {
+    .btn-material {
+        margin-top: 4px !important;
+    }
+    .theme-switch-wrapper {
+        margin-top: 6px !important;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    a.navbar-brand {
+        font-size: 18px !important;
+    }
+}
+
+@media only screen and (max-width: 336px) {
+    a.navbar-brand {
+        font-size: 14px !important;
+    }
+}

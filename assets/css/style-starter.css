@@ -41386,9 +41386,18 @@ html::-webkit-scrollbar-thumb {
     }
 }
 
+@media only screen and (max-width: 470px) {
+    .theme-switch-wrapper {
+        margin-top: 0 !important;
+    }
+    .btn-material {
+        margin-top: 0 !important;
+    }
+}
+
 @media only screen and (max-width: 420px) {
     a.navbar-brand {
-        font-size: 18px !important;
+        font-size: 20px !important;
     }
 }
 
